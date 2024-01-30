@@ -6,7 +6,9 @@ body, html {
 
 body {
     background: url('https://cdn.glitch.global/113efb00-93a1-4ab0-8b5d-231c86c5c06b/pinball.jpg?v=1706592718692') no-repeat center center fixed; 
-    background-size: cover; /* Cover the entire page */
+    background-size: 100% 100%;
+}
+
 }
 
 .title-container {
