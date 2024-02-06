@@ -1,24 +1,45 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family:'Pixelify Sans', sans-serif;
+    cursor: url('https://cdn.glitch.global/113efb00-93a1-4ab0-8b5d-231c86c5c06b/kisspng-future-pinball-gottlieb-cue-ball-wizard-5b1f0183b3f7f6.6143663315287586597372.png?v=1707179843825'), auto; 
 }
 
 body {
     background: url('https://cdn.glitch.global/113efb00-93a1-4ab0-8b5d-231c86c5c06b/pinball.jpg?v=1706592718692') no-repeat center center fixed; 
     background-size: 100% 100%;
 }
-
+.scoreboard-link {
+    position: absolute;
+    display: block;
+    width:100px;
+    padding: 10px;
+    color: #C16AF5;  
+    text-decoration: none;
+    text-align: center;
+    font-family:'Pixelify Sans' , sans-serif; 
+    font-size: 26px; 
+    border: none; 
+}
+.info-text {
+    position: absolute;
+    top: 325px; 
+    right: 110px;
+    width: 250px;
+    color: #8257E6;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 19px; 
+    text-align: center;
 }
 
-.title-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-    text-align: center;
+#second-page-link {
+    top: 420px;
+    right: 300px; 
+}
+
+#third-page-link {
+    top: 480px;
+    right: 300px; 
 }
 
 h1 {
